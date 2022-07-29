@@ -1,0 +1,58 @@
+.Section__title{
+    color: var(--color_primary);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.Section__item{
+display: flex;
+flex-direction: column;
+position: relative;
+margin-bottom: 1.5rem;
+}
+.Section__itemTiltle{
+    max-width: 70%;
+}
+
+.Section__info{
+    display: flex;
+    gap:2rem;
+    margin-top: 0.1rem;
+}
+
+.Section__subItems{
+    display: flex;
+    gap: 0.5rem
+}
+.Section__itemImagePrice{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 3%;
+
+}
+
+.Section_itemImage{
+
+    width: 5rem;
+    max-height: 5rem;
+    
+}
+
+.Section__itemPrice{
+
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: var(--color_primary)
+
+}
+
+
+.Section_itemName{
+font-weight: 900;
+font-size: 1.2rem
+}

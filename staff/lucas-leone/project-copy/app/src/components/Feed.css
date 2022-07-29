@@ -1,0 +1,21 @@
+.Feed__list {
+    padding-top: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Feed__item {
+    width: 98%;
+    border: solid 0.2rem;
+    border-color: var(--color_primary);
+    margin-top: 2rem;
+    border-radius: 2rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.Feed__item:hover {
+    color: var(--color_primary);
+}

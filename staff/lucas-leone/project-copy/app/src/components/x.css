@@ -1,0 +1,10 @@
+.x{
+    position: fixed;
+    top:0.2%;
+    left: 10%;
+    color: var(--color_secondary);
+    font-size: 4rem;
+    z-index: 300;
+    border: none;
+    background: var(--color_primary);
+}
