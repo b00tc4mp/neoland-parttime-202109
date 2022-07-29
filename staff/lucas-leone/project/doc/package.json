@@ -1,0 +1,12 @@
+{
+  "name": "doc",
+  "version": "1.0.0",
+  "description": "Una web para crear menus para hostelería pensada en las necesidades del cliente y mejorar su experiencia de consumo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

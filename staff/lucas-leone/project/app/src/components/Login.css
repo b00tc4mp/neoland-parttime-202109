@@ -1,0 +1,63 @@
+.Login,.Register {
+    max-width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.Login__form, .Register__form {
+    width: 70%;
+    /* margin: 50%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-lg);
+
+} 
+
+.Login__submit, .Register__submit {
+    width: 10rem;
+    font-size: 2.5rem;
+    position: absolute;
+    bottom: 10%;
+    border-radius: 1.5rem;
+    background-color: var(--color_primary);
+    font-family: var(--fontFamily-primary);
+    border: none;
+}
+
+.Login__input, .Register__input{
+    border-radius: 1.5rem;
+    padding: 1rem;
+    border: solid var(--color_primary);
+    background : var(--color_secondary);
+    font-size: 2rem;
+    width: 20rem;
+}
+
+.Login__register, .Register__Login{
+    position: absolute;
+    bottom: 5%;
+}
+
+.Login__account, .Register__account{
+    color:black;
+    font-size:1.2rem;
+}
+
+.Login__goRegister, .Register__goLogin{
+    text-decoration: none;
+    color:var(--color_darkGrey);
+    font-size: 1.2rem;
+    margin: 0.5rem;
+}
+
+.Login__image, .Register__image{
+    max-width: 50%;
+    position: absolute;
+    top: 3%;
+    left:5%
+}
+

@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+:root {
+  /* COLORS CLASSIC THEME*/ 
+  
+  --color_darkGrey: #2d2d2f;
+  --color_grey-dark:#181818;
+  --color_grey: #72737a;
+  --color_primary: #FFBD49;
+  ----color_primary-dark:#bf7d0c;
+  --color_secondary: #FFFFFF;
+  --color_error: rgb(223, 44, 41);
+  --color_success: #60fe4b;
+  --color_info: rgb(252, 240, 171);
+
+
+  /* FONT SIZES */
+  --text_title-lg: 3.125rem;
+  --text_title-md: 2.5rem;
+  --text_title-sm: 1.5rem;
+
+  --text-lg: 1.2rem;
+  --text-md: 1rem;
+  --text-sm: 0.9rem;
+
+
+  /* SPACES */
+  --space-xlg: 4rem;
+  --space-lg: 2.5rem;
+  --space-md: 1rem;
+  --space-sm: 0.5rem;
+  --space-xs: 0.3rem;
+
+  --borderRadius:1.5rem
+
+  /*LINES AND FONT WEIGTH*/
+  --line-md: 2px;
+  --fontWeight-bolder: 700;
+  --fontFamily-primary: 'Jockey One', sans-serif;
+}
+html, body{
+    height:100vh;
+    margin: 0;
+  }
+* {
+  color: var(--color_darkGrey);
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+}
+
+.App{
+  min-height: 100vh;
+  background-color: var(--color_secondary);
+}
+
+a {
+  color: var(--color_grey-dark);
+  cursor: pointer
+}
+
+a:hover{
+  color: var(--color_primary);
+}
+input::placeholder,textarea::placeholder{
+ color: var(--color_grey)
+}
+input{
+    background-color: var(--color_secondary);
+}

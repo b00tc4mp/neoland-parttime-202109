@@ -1,0 +1,12 @@
+.feedback{
+    padding: 1rem;
+    background-color: var(--color_primary);
+    text-align: center;
+    font-size: 2rem;
+    position: fixed;
+    color: var(--color_error);
+    z-index: 400;
+    width: 100%;
+    border: solid 0.5rem;
+    border-color: var(--color_error);
+}

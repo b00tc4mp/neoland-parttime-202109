@@ -1,0 +1,162 @@
+.Create {
+    max-width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.CreateItem__contenedor{
+    position: relative;
+}
+.CreateItem{
+    position: absolute;
+    top:30vh;
+    max-width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 0.8rem ;
+    padding-right: 0.8rem;
+    
+
+}
+
+.Create__form{
+    width: 70%;
+    /* margin: 50%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.Create__submit{
+    width: 10rem;
+    font-size: 2.5rem;
+    position: fixed;
+    bottom: 5%;
+    border-radius: 1.5rem;
+    background-color: var(--color_primary);
+    font-family: var(--fontFamily-primary);
+    border: none;
+    z-index: 100;
+}
+
+.Create__input{
+    border-radius: 1.3rem;
+    padding: 0.5rem;
+    border: solid var(--color_primary);
+    background : var(--color_secondary);
+    font-size: 1.5rem;
+    width: 23rem;
+}
+
+.Create__tiltle {
+    margin: 2rem;
+    font-size: 3rem;
+}
+.Create__titleMargin{
+margin-bottom: 2rem;
+    font-size: 3rem;
+}
+
+.Create__subtitle{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+
+}
+.Create__subtitle-margin{
+    margin-top: 1.5rem;
+}
+
+.Create_ingredientsContenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top:-10%;
+    left:8%;
+    margin-left: 0.5rem;
+}
+
+.updateList_section, .updateSection_item{
+    font-size: 1.5rem;
+    display: flex;
+    gap:0.8rem;
+}
+
+.Create__subButton{
+    border-radius: 1.5rem;
+    padding: 0.2rem;
+    border: solid var(--color_primary);
+    background : var(--color_secondary);
+    font-size: 1.2rem;
+    width: 7rem;
+    margin-bottom: 1rem ;
+}
+
+.Create_plusButton {
+    border-radius: 2rem;
+    padding-right: 0.7rem;
+    padding-left: 0.7rem;
+    border: solid var(--color_primary);
+    background : var(--color_secondary);
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 30%;
+}
+.updateList_createButton:hover,.updateSection_createButton:hover {
+    background: var(--color_primary);
+}
+
+.Update__checkbox{
+border-color: var(--color_primary);
+margin-left: 1rem;
+}
+input[type=checkbox ] {
+	width: 1.3rem;
+	height: 1.3rem;
+	border-radius: 1rem;
+    border-color: var(--color_primary);
+    margin: 0.4rem;
+}
+
+input[type=checkbox]:checked{
+    background: var(--color_primary);
+}
+
+.Create__ingredients{
+    margin: 0;
+    font-size: 1.3rem;
+}
+
+.CreateItem__submit{
+    width: 10rem;
+    font-size: 2.5rem;
+    border-radius: 1.5rem;
+    background-color: var(--color_primary);
+    font-family: var(--fontFamily-primary);
+    border: none;
+    margin-bottom: 3rem;
+
+}
+.updateItem__done{
+    margin-top:2rem;
+}
+.UpdateIngredients{
+    margin-top: 20rem;
+}
+
+.Create__buttons{
+    display: flex ;
+    flex-direction: column;
+    gap:2rem
+}
+
+.CreateItem__submit-margin{
+    margin-top: 3rem;
+}
+
