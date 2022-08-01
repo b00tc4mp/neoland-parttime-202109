@@ -11,6 +11,7 @@ function Landing() {
             <button className='Landing_nav-button'><Link to='/register'>Register</Link></button>
             <button className='Landing_nav-button'><Link to='/login'>LogIn</Link></button>
         </div>
+        <span>If you don't want to register, please go to LogIn and use the guest profile already configurated. <br></br>If you're already register use your account</span>
 
         <footer className='Landing__footer'>
             <div className='Landing__footer-contact'>

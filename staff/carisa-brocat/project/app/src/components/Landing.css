@@ -62,6 +62,15 @@
     justify-content: center;
 }
 
+.Landing span{
+    font-size: 15px;
+    color: rgb(179, 179, 179);
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 15px;
+    text-align: center;
+}
+
 .Landing__footer-contact p{
    margin: 0;
    padding:15px;
