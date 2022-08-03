@@ -1,0 +1,35 @@
+.createPart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.createPart__title {
+    text-align: center;
+}
+
+.createPart__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.createPart__textarea {
+    padding: 70px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+
+.createPart__button {
+    height: 45px;
+    width: 326px;
+    border-radius: 15px;
+    border: 2px;
+    background-color: #0085FF;
+    color: white;
+    text-size-adjust: 32px;
+    font-size: 17px;
+    margin-top: 40px;
+}

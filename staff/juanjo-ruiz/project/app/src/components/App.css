@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu:wght@300&display=swap');
+
+body, html, #root {
+    height: 100%;
+    margin: 0;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}

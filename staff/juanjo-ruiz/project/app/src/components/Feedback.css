@@ -1,0 +1,16 @@
+.feedback {
+    position: relative;
+    padding: 1rem;
+    border-radius: 10px;
+    float: right
+}
+
+.feedback--info {
+    background-color: yellowgreen;
+    color: white;
+}
+
+.feedback--error {
+    background-color: tomato;
+    color: white;
+}

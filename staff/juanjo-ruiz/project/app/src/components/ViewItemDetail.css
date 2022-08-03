@@ -1,0 +1,13 @@
+.viewItemDetail {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.viewItemDetail__li {
+    list-style: none;
+}
+
+.viewItemDetail__title {
+    text-align: center;
+}

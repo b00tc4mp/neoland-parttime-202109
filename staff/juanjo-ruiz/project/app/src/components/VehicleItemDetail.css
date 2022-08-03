@@ -1,0 +1,16 @@
+.vehicleItem {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.vehicleItem__Button {
+    width: 200px;
+    height: 55px;
+    border-radius: 15px;
+    border: none;
+    background: #0085FF;
+    color: white;
+    margin-bottom: 20px;
+}

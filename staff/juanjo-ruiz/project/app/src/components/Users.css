@@ -1,0 +1,32 @@
+.users__title {
+    text-align: center;
+}
+
+.users__label {
+    text-align: center;
+    margin-left: 100px;
+}
+
+.users__input {
+    width: 300px;
+    height: 30px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.users__button__search {
+    width: 35px;
+    height: 38px;
+    background-color: transparent;
+    border: none;
+}
+
+.users__button {
+    width: 118px;
+    height: 55px;
+    border-radius: 15px;
+    border: none;
+    margin-left: 120px;
+    background: #0085FF;
+    color: white;
+}

@@ -1,0 +1,43 @@
+.vehicles__title {
+    text-align: center;
+}
+
+.vehicles__label {
+    text-align: center;
+    margin-left: 100px;
+}
+
+.vehicles__input {
+    width: 300px;
+    height: 30px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.vehicles__button__search {
+    width: 35px;
+    height: 38px;
+    background-color: transparent;
+    border: none;
+}
+
+.vehicles__button {
+    width: 118px;
+    height: 55px;
+    border-radius: 15px;
+    border: none;
+    margin-left: 120px;
+    background: #0085FF;
+    color: white;
+}
+
+.vehicle__li {
+    list-style: none;
+}
+
+.vehicle__card {
+    width: 400px;
+    height: 250px;
+    margin: 80px auto;
+    border: 10px;
+}

@@ -1,0 +1,31 @@
+.partItem {
+    width: 15px;
+    height: 30px;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+.partItem__date {
+    margin-left: 35px
+}
+
+.partItem__card {
+    border: 4px;
+}
+
+.partItem__content {
+    display: flex;
+    flex-basis: 50%;
+}
+
+.partItem--2 {
+    background-color: red;
+}
+
+.partItem--1 {
+    background-color: orange;
+}
+
+.partItem--0 {
+    background-color: greenyellow;
+}

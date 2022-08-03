@@ -1,0 +1,34 @@
+.partItemDetail__content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.partItemDetail {
+    width: 400px;
+    height: 60px;
+}
+
+.partItemDetail--2 {
+    background-color: red;
+}
+
+.partItemDetail--1 {
+    background-color: orange;
+}
+
+.partItemDetail--0 {
+    background-color: greenyellow;
+}
+
+.partItemDetail__button {
+    width: 200px;
+    height: 55px;
+    border-radius: 15px;
+    border: none;
+    background: #0085FF;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}

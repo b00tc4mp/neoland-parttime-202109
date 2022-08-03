@@ -1,0 +1,22 @@
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.nav__button {
+    height: 130px;
+    width: 326px;
+    left: 36px;
+    top: 647px;
+    border-radius: 15px;
+    border: 2px;
+    background-color: #0085FF;
+    color: white;
+    text-size-adjust: 32px;
+    font-size: 25px;
+    margin-top: 20px;
+}

@@ -1,0 +1,42 @@
+.updateUser {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.updateUser__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.updateUser__input {
+    height: 45px;
+    width: 326px;
+    border-radius: 15px;
+    border: 1px solid;
+    background: #FFFFFF;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+.updateUser__button {
+    height: 45px;
+    width: 326px;
+    border-radius: 15px;
+    border: 2px;
+    background-color: #0085FF;
+    color: white;
+    text-size-adjust: 32px;
+    font-size: 17px;
+}
+
+.updateUser__select {
+    height: 47px;
+    width: 330px;
+    border-radius: 15px;
+    border: 1px solid;
+    margin-bottom: 25px;
+}
