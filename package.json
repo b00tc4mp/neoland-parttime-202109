@@ -4,10 +4,10 @@
   "description": "",
   "scripts": {
     "start": "node staff/carisa-brocat/project/api/src",
-    "deps": "npm run  install-api && npm run  install-data && npm run  install-logic && npm install",
-    "install-api": "npm install staff/carisa-brocat/project/api",
-    "install-data": "npm install staff/carisa-brocat/project/data",
-    "install-logic": "npm install staff/carisa-brocat/project/logic"
+    "deps": " npm run  install-api && npm run  install-data && npm run install-logic && npm install",
+    "install-api": "cd staff/carisa-brocat/project/api &&  npm install",
+    "install-data": "cd  staff/carisa-brocat/project/data && npm install",
+    "install-logic": "cd staff/carisa-brocat/project/logic && npm install"
   },
   "keywords": [],
   "author": "",
