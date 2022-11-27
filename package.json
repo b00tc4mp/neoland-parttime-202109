@@ -3,12 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "node staff/carisa-brocat/project/api/src"
+    "start": "node staff/carisa-brocat/project/api/src",
+    "deps": "npm run  install-api && npm run  install-data && npm run  install-logic && npm install ",
+    "install-api": "npm install staff/carisa-brocat/project/api",
+    "install-data": "npm install staff/carisa-brocat/project/data",
+    "install-logic": "npm install staff/carisa-brocat/project/logic"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "api": "file:staff/carisa-brocat/project/api",
     "bcryptjs": "^2.4.3",
     "commons": "file:staff/carisa-brocat/project/commons",
     "cors": "^2.8.5",
