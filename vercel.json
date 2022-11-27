@@ -3,7 +3,7 @@
     "installCommand": "npm run deps",
     "builds": [
       {
-        "src": ".",
+        "src": "index.js",
         "use": "@now/node"
       }
     ],
