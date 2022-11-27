@@ -1,5 +1,6 @@
 {
     "version": 2,
+    "installCommand": "npm run deps",
     "builds": [
       {
         "src": "staff/carisa-brocat/project/api/src/index.js",
