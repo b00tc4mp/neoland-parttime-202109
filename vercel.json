@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "staff/carisa-brocat/project/api/src/index.js",
+        "use": "@now/node"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "staff/carisa-brocat/project/api/src/index.js"
+      }
+    ]
+  }

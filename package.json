@@ -7,16 +7,20 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC" ,
+  "license": "ISC",
   "dependencies": {
-    "commons": "file:staff/carisa-brocat/project/commons",
-    "logic": "file:staff/carisa-brocat/project/logic",
-    "data": "file:staff/carisa-brocat/project/data",
     "bcryptjs": "^2.4.3",
+    "commons": "file:staff/carisa-brocat/project/commons",
     "cors": "^2.8.5",
+    "data": "file:staff/carisa-brocat/project/data",
     "dotenv": "^16.0.0",
     "express": "^4.18.1",
     "jsonwebtoken": "^8.5.1",
+    "logic": "file:staff/carisa-brocat/project/logic",
     "nodemon": "^2.0.16"
-  } 
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0"
+  }
 }
