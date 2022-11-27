@@ -1,6 +1,12 @@
 {
     "version": 2,
     "installCommand": "npm run deps",
+    "builds": [
+      {
+        "src": ".",
+        "use": "@now/node"
+      }
+    ],
     "routes": [
       {
         "src": "/(.*)",
