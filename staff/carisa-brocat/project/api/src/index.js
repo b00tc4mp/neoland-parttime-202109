@@ -38,7 +38,6 @@ connect(MONGODB_URL)
         api.use(cors())
 
         const router = express.Router()
-
         const jsonBodyParser = express.json()
 
         router.post('/users', jsonBodyParser, registerUser)
