@@ -1,0 +1,157 @@
+.UserConfiguration {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.UserConfiguration__title {
+    font-family: 'Supermercado One', cursive;
+    color: var(--green);
+    border-bottom: 2px solid var(--green);
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+}
+
+.UserConfiguration__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: flex-start;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.UserConfiguration__upload-userImage {
+    display: flex;
+    margin-left: 40px;
+}
+
+
+.UserConfiguration__user-image {
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    border-radius: 35px;
+    border: var(--gray) solid 1px;
+    cursor: pointer;
+}
+
+.UserConfiguration__user-image img {
+    width: auto;
+    height: 100%;
+}
+
+.UserConfiguration__LabelInputFile{
+    width: 25px;
+    height: 25px;
+    border: solid var(--green) 2px;
+    border-radius: 50%;
+    display: inline-flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.UserConfiguration__LabelInputFile img{
+    width: 20px;
+    align-self: center;
+}
+
+.UserConfiguration__InputFile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.UserConfiguration__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 15px;
+    border-bottom: solid var(--green) 2px;;
+}
+
+.UserConfiguration__Nickname{
+    color: var(--green);
+    font-size: 20px;
+    border-style: none;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.UserConfiguration__container--margin-top{
+    margin-top: 20px;
+}
+
+.UserConfiguration__hairTexture label{
+    font-size: 20px;
+}
+
+.UserConfiguration__hairTexture select{
+    border-radius: 6px;
+    padding-top: 1px;
+    width: 60px;
+    height: 30px;
+    background-color: var(--yellow);
+    color: white;
+    font-family: 'Inconsolata', monospace;
+    border-style: none;
+    margin-left: 2px;
+    padding-left: 5px;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.UserConfiguration__interests h2{
+    font-size: 20px;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.UserConfiguration__fieldset{
+    border: 0;
+    display: grid;
+    grid-template-columns: 60px 60px;
+    grid-template-rows: 50px 50px 50px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px ;
+}
+
+.UserConfiguration__fieldset-interests {
+    grid-template-columns: 125px 125px;
+  }
+
+.UserConfiguration__button{
+    align-self: flex-end;
+    background-color: var(--green);
+    border-style: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 18px;
+    color: white;
+    font-family: 'Inconsolata', monospace;
+    padding: 0;
+}
+
+.UserConfiguration__button--large{
+    width: 120px;
+    height: 50px;
+    font-size: 18px;
+    font-family: 'Supermercado One', cursive;
+}
+
+.UserConfiguration__container__footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+

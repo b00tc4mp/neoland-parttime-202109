@@ -1,0 +1,77 @@
+.PostComments {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid var(--gray);
+    margin-top: 80px;
+    border-radius: 20px;
+    width: 350px;
+    height: 400px;
+    background-color: white;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.PostComments h2 {
+    font-family: 'Supermercado One', cursive;
+    color: var(--green);
+    border-bottom: 2px var(--yellow) solid;
+    text-align: center;
+    width: 90%;
+    margin: 0;
+    margin-top: 15px;
+}
+
+.PostComments__list {
+    padding-top: 5px;
+    height: 210px;
+    width: 90%;
+    overflow-y: scroll;
+}
+
+.PostComments__list li {
+    display: flex;
+    flex-direction: column;
+}
+
+.PostComments__date {
+    color: gray;
+    font-size: 12px;
+    margin: 0;
+    margin-top: 2px;
+}
+
+.PostComments__text {
+    text-align: justify;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.PostComments__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.PostComments__input {
+    width: 280px;
+    border-style: none;
+    background-color: var(--gray);
+    height: 100px;
+    margin-top: 10px;
+}
+
+.PostComments__button {
+    background-color: var(--green);
+    border-style: none;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    font-size: 25px;
+    color: white;
+    font-family: 'Inconsolata', monospace;
+    padding: 0;
+    position: relative;
+    bottom: 15px;
+    left: 130px
+}

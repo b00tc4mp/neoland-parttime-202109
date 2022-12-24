@@ -1,0 +1,94 @@
+.Landing {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.Landing__logo {
+    width: 120px;
+    margin-top: 60px;
+}
+
+.Landing__headerText {
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.Landing_nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.Landing_nav-button {
+    background-color: var(--green);
+    border-style: none;
+    width: 100px;
+    height: 35px;
+    border-radius: 8px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.Landing_nav-button a {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Inconsolata', monospace;
+}
+
+.Landing__footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 15px;
+    color: rgb(179, 179, 179);
+    position: fixed;
+    bottom: 25px;
+}
+
+.Landing__footer-contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Landing span{
+    font-size: 15px;
+    color: rgb(179, 179, 179);
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.Landing__footer-contact p{
+   margin: 0;
+   padding:15px;
+}
+
+.Landing__footer-copyright {   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+}
+
+.Landing__footer-copyright p{
+    margin: 0;
+ }
+
+.Landing__footer-copyright-img {   
+    height: 15px;
+    padding-right: 10px;
+}

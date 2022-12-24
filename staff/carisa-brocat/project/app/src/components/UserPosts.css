@@ -1,0 +1,8 @@
+.UserPosts__text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--green);
+    padding: 30%;
+    font-size: 18px;
+}

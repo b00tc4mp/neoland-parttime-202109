@@ -1,0 +1,26 @@
+.Subject {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid var(--green);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.Subject__button {
+    background-color: var(--green);
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+.Subject__button--selected {
+    border-radius: 50%;
+    border: 2px solid var(--yellow);
+}

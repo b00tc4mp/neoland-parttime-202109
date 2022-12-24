@@ -1,0 +1,80 @@
+.Unregister{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.Unregister__title{
+    font-family: 'Supermercado One', cursive;
+    color: var(--green);
+    border-bottom: 2px solid var(--green);
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+}
+
+.Unregister__form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.Unregister__form-input {
+    height: 35px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    border: solid 1px;
+    border-color: var(--gray);
+    font-family: 'Inconsolata', monospace;
+    padding-left: 10px;
+    box-shadow: 0 0 0 30px white inset !important
+}
+
+.Unregister__form-input--noPadding {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+.Unregister__form-input__password {
+    border-style: none;
+    border-radius: 8px;
+    height: 33px;
+}
+
+.Unregister__image-hide-show-password {
+    height: 20px;
+    padding: 8px;
+}
+
+.Unregister__form-button {
+    background-color: var(--green);
+    border-style: none;
+    width: 200px;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 18px;
+    color: white;
+    font-family: 'Inconsolata', monospace;
+    padding: 0;
+}
+
+.Unregister__confirmation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border: 2px solid var(--gray);
+    border-radius: 20px;
+    width: 300px;
+    height: 150px;
+    padding: 5px;
+    text-align: center;
+}
+
+.Unregister__form-button--small{
+    width: 100px;
+}

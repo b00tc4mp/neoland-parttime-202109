@@ -1,0 +1,25 @@
+.Feedback { 
+    font-weight: bold;
+    position: fixed;
+    top: 72vh;
+    left: 25%;
+    right: 25%;
+    border-style:solid;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.Feedback--info {
+    background-color: white;
+    border-width: 1px;
+    border-color: var(--green);
+    color: var(--green);
+}
+
+.Feedback--error {
+    background-color: white;
+    border-width: 1px;
+    border-color: var(--yellow);
+    color: rgb(254, 60, 60);
+}

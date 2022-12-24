@@ -1,0 +1,26 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "mongo":"/Users/carisabr/Desktop/mongodb-macos-x86_64-5.0.6/bin/mongod --dbpath data",
+    "start": "node src",
+    "inspect": "node --inspect src",
+    "nodemon": "nodemon src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commons": "file:../commons",
+    "cors": "^2.8.5",
+    "data": "file:../data",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "logic": "file:../logic",
+    "nodemon": "^2.0.16"
+  }
+}

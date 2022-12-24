@@ -1,0 +1,147 @@
+.Post {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid var(--gray);
+    margin-top: 15px;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 400px;
+    height: 450px;
+    justify-content: flex-start;
+}
+
+.Post__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 2px solid var(--gray);
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.Post__header_userInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Post__header_userInfo-image {
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: var(--gray) solid 1px;
+    margin-right: 5px;
+}
+
+.Post__header_userInfo-image img {
+    width: auto;
+    height: 100%;
+}
+
+.Post__body {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid var(--gray);
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.Post__body__title {
+    font-size: 20px;
+    text-align: center;
+    height: 40px;
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    align-content: center;
+}
+
+.Post__body__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 270px;
+    border-bottom: var(--gray);
+    align-items: center;
+}
+
+.Post__body__image {
+    max-width: 40%;
+   max-height: 90%;
+}
+
+.Post__body__container-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    
+}
+
+.Post__body__description {
+    font-size: 16px;
+    overflow-y: scroll;
+    max-height: 80%;
+    text-align: justify;
+  text-justify: inter-word;
+  padding-left: 5px;
+}
+
+.Post__body__date {
+    color: gray;
+    font-size: 12px;
+    text-align: right;
+}
+
+.Post__body__comments {
+    font-size: 15px;
+    color: rgb(34, 135, 34);
+    cursor: pointer;
+    font-weight: bolder;
+    text-align: right;
+    margin: 0;
+}
+
+.Post__footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    height: 100%;
+}
+
+.Post__footer-container {
+    width: 100%;
+}
+
+.Post__footer--center{
+    justify-content: center;
+}
+
+.Post__footer__button{
+    border-style: none;
+    background-color: white;
+}
+
+.Post__footer__button img{
+    width: 30px;
+    cursor: pointer;
+}
+
+.Post__footer-feedback {
+    display: flex;
+    flex-direction: row;
+}
+
+.Post__footer-feedback p{
+    font-size: 15px;
+    color: rgb(34, 135, 34);
+}
+
+.Post__footer__button-save img{
+    width: 40px;
+}

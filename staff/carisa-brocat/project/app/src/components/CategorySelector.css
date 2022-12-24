@@ -1,0 +1,38 @@
+.Category {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Category__at-left {
+    justify-content: space-around;
+    border:none;
+    width: 40%
+}
+
+.Category__at-rigth {
+    justify-content: space-around;
+    border:none;
+    width: 40%
+}
+
+.Category__button{
+    border: solid var(--gray);
+    width: 40px;
+    height: 40px; 
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Category__button img{
+    height: 25px; 
+}
+
+.Category__button--selected {
+    border-radius: 50%;
+    border: 2px solid var(--yellow);
+}
+

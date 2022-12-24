@@ -1,0 +1,84 @@
+.UserMenu__container{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+}
+
+.UserMenu {
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    border-top-right-radius: 10px;
+}
+
+.UserMenu--opened {
+    width: 250px;
+}
+
+.UserMenu h2{
+    font-family: 'Supermercado One', cursive;
+    font-size: 25px;
+    padding-left: 20px;
+    transition: 0.3s;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.UserMenu__header{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: solid 2px var(--green);
+}
+
+.UserMenu__header__user-image {
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: var(--gray) solid 1px;
+}
+
+.UserMenu__header__user-image img {
+    width: auto;
+    height: 100%;
+}
+
+.UserMenu__footer{
+    display: flex;
+    flex-direction: row;  
+    align-items: center;
+    margin-top: 180px;
+}
+
+.UserMenu__footer img{
+    height: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.UserMenu__close-button{
+    position: absolute;
+    background-color: white;
+    border-style: none;
+    color: gray;
+    font-size: 30px;
+    left: 200px;
+    top: 10px;
+    width: 35px;
+    height: 35px;
+    transition: 0.5s;
+}

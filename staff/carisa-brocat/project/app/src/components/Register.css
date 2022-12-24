@@ -1,0 +1,108 @@
+.Register {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.Register__logo {
+    width: 120px;
+    margin-top: 60px;
+}
+
+.Register__form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.Register__form-input {
+    height: 35px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    border: solid 1px;
+    border-color: var(--gray);
+    font-family: 'Inconsolata', monospace;
+    padding-left: 10px;
+    box-shadow: 0 0 0 30px white inset !important
+}
+
+.Register__form-input--noPadding {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+.Register__form-input__password {
+    border-style: none;
+    border-radius: 8px;
+    height: 33px;
+}
+
+.Register__image-hide-show-password {
+    height: 20px;
+    padding: 8px;
+}
+
+.Register__form-button {
+    background-color: var(--green);
+    border-style: none;
+    width: 200px;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 18px;
+    color: white;
+    font-family: 'Inconsolata', monospace;
+    padding: 0;
+}
+
+.Register__link {
+    text-align: center;
+    width: 200px
+}
+
+.Register__link a {
+    text-decoration: none;
+    color: var(--yellow);
+}
+
+.Register__footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 15px;
+    color: rgb(179, 179, 179);
+    position: fixed;
+    bottom: 25px;
+}
+
+.Register__footer-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Register__footer-contact p {
+    margin: 0;
+    padding: 15px;
+}
+
+.Register__footer-copyright {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+}
+
+.Register__footer-copyright p {
+    margin: 0;
+}
+
+.Register__footer-copyright-img {
+    height: 15px;
+    padding-right: 10px;
+}
